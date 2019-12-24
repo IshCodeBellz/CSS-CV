@@ -1,0 +1,136 @@
+body{
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color: #40514E;
+}
+
+h1{
+  margin: 150px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 9.375rem;
+  color: #698474;
+}
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #698474;
+  font-weight: normal;
+
+}
+hr{
+    border-style: none;
+    border-top-style: dotted;
+    border-color: grey;
+    border-width: 5px;
+    width: 5%;
+}
+h3{
+  font-family: 'Montserrat', sans-serif;
+  color: #889e81;
+}
+a{
+  color: #889e81;
+}
+span {
+  text-decoration: underline;
+}
+a {
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+a:hover{
+  color: white;
+}
+.para{
+  width: 50%;
+  margin: auto;
+  text-align: left;
+}
+
+.top-container{
+  background-color: #bac7a7;
+  width: auto;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container{
+  margin: 100px 0 50px;
+}
+
+.bottom-container{
+  background-color: #698474;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.bottom-cloud{
+  position: absolute;
+  width: 20%;
+  left: 12.500rem;
+  bottom: 31.250rem;
+}
+.top-cloud{
+  position: absolute;
+  width: 20%;
+  right: 12.500rem;
+  top: 3.125rem;
+}
+.mountain{
+  width:85% ;
+}
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+.programming-img{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+.gym-img{
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+
+}
+.me-img{
+  width: 20%;
+  background-color: #bac7a7;
+  border-radius: 50%;
+
+}
+
+.myButton {
+	box-shadow:inset 0px 0px 14px -3px #f2fadc;
+	background:linear-gradient(to bottom, #dbe6c4 5%, #9ba892 100%);
+	background-color:#dbe6c4;
+	border-radius:6px;
+	border:1px solid #b2b8ad;
+	display:inline-block;
+	cursor:pointer;
+	color:#757d6f;
+	font-family:Arial;
+	font-size:25px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ced9bf;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #9ba892 5%, #dbe6c4 100%);
+	background-color:#9ba892;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+.footer-text{
+  color: white;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
